@@ -59,3 +59,4 @@ export default TickTackToe;
 
 
 // lots of work did so not today 
+// paral bokne kaam vayo 1 remaining of 2
