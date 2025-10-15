@@ -59,4 +59,5 @@ export default TickTackToe;
 
 
 // lots of work did so not today 
-// paral bokne kaam vayo 1 remaining of 2
+// paral bokne kaam vayo 1 remaining of 2 . 
+// please paint jk tommorw
