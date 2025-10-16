@@ -112,3 +112,4 @@ export default TickTackToe;
 // lots of work did so not today 
 // paral bokne kaam vayo 1 remaining of 2 . 
 // please paint jk tommorw
+// added deployment but not showing the real responsivness
