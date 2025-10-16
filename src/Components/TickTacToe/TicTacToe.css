@@ -1,56 +1,126 @@
-.container{
-    text-align: center;
-}
-.title{
-    margin-top: 50px;
-    color: white;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  text-align: center;
 }
 
-.title span{
-    color: #26ffcb;
-    padding-left: 15px;
-}
-.reset{
-    width: 250px;
-    height: 100px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50px;
-    background: #1f3540;
-    font-size : 26px;
-    color: #26ffcb;
-    margin-top: 25px;
-    margin-bottom: 50px;
+.title {
+  margin-top: 50px;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.boxes{
-    display: flex;
-    height: 180px;
-    width: 180px;
-    background:#1f3540 ;
-    border: 4px solid #0f1b21;
-    border-radius: 12px;
-    cursor: pointer;
-
-}
-.board{
-    height: 600px;
-    width: 564px;
-    display: flex;
-    margin: auto;
+.title span {
+  color: #26ffcb;
+  padding-left: 15px;
 }
 
-.boxes img{
-    margin: 50px;
+.reset {
+  width: 250px;
+  height: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #1f3540;
+  font-size: 26px;
+  color: #26ffcb;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
-.title img{
-    padding: 20px 20px;
-    height: 50px;
-    
+.boxes {
+  display: flex;
+  height: 180px;
+  width: 180px;
+  background: #1f3540;
+  border: 4px solid #0f1b21;
+  border-radius: 12px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  height: 600px;
+  width: 564px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes img {
+  margin: 50px;
+}
+
+.title img {
+  padding: 20px 20px;
+  height: 50px;
+}
+
+/* ----------------------------- */
+/* 🌐 Simple Responsive Rules */
+/* ----------------------------- */
+
+/* For tablets */
+@media (max-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .board {
+    width: 420px;
+    height: auto;
+  }
+
+  .boxes {
+    width: 130px;
+    height: 130px;
+  }
+
+  .boxes img {
+    margin: 30px;
+    width: 60px;
+  }
+
+  .reset {
+    width: 200px;
+    height: 80px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 28px;
+    flex-direction: column;
+  }
+
+  .title span {
+    padding-left: 5px;
+  }
+
+  .board {
+    width: 280px;
+    height: auto;
+  }
+
+  .boxes {
+    width: 80px;
+    height: 80px;
+  }
+
+  .boxes img {
+    margin: 15px;
+    width: 40px;
+  }
+
+  .reset {
+    width: 140px;
+    height: 60px;
+    font-size: 18px;
+  }
 }
