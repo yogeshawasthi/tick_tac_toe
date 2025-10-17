@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import "./TicTacToe.css";
 import circle_icon from "../Assests/circle.png";
 import cross_icon from "../Assests/cross.png";
+import profile_photo from "../Assests/profilee.png"; // add this
 
 let data = ["", "", "", "", "", "", "", "", ""];
 
@@ -88,6 +89,11 @@ const TickTackToe = () => {
 
   return (
     <div className="container">
+      <img
+        className="profile-avatar"
+        src={profile_photo}
+        alt="Your Name"
+      />
       <h1 className="title" ref={titleRef}>
         Tick Tac Toe Game in <span> React</span>
       </h1>
@@ -111,6 +117,20 @@ const TickTackToe = () => {
       <button className="reset" onClick={() => reset()}>
         Reset
       </button>
+
+      {/* About Me */}
+      <section className="about-me">
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm [Your Name]. I built this Tic Tac Toe app with React to practice state
+          and UI logic. I enjoy [your interests or stack].
+        </p>
+        <div className="about-me__links">
+          <a href="https://github.com/your-github" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:you@example.com">Email</a>
+        </div>
+      </section>
     </div>
   );
 };
