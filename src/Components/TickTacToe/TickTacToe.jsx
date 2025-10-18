@@ -120,15 +120,14 @@ const TickTackToe = () => {
 
       {/* About Me */}
       <section className="about-me">
-        <h2>About Me</h2>
         <p>
-          Hi, I'm [Your Name]. I built this Tic Tac Toe app with React to practice state
-          and UI logic. I enjoy [your interests or stack].
+          Hi, I'm Yogesh Awasthi. I built this Tic Tac Toe app with React to practice state
+          and UI logic. I enjoy programming, gaming, and learning new technologies.
         </p>
         <div className="about-me__links">
-          <a href="https://github.com/your-github" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="mailto:you@example.com">Email</a>
+          <a href="https://github.com/yogeshawasthi" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/yogesh-awasthi" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:yogeshawasthi54321@gmail.com">Email</a>
         </div>
       </section>
     </div>
