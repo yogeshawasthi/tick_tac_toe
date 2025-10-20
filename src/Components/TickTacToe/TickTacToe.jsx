@@ -122,7 +122,8 @@ const TickTackToe = () => {
       <section className="about-me">
         <p>
           Hi, I'm Yogesh Awasthi. I built this Tic Tac Toe app with React to practice state
-          and UI logic. I enjoy programming, gaming, and learning new technologies.
+          and UI logic.
+         I enjoy programming, gaming, and learning new technologies.
         </p>
         <div className="about-me__links">
           <a href="https://github.com/yogeshawasthi" target="_blank" rel="noreferrer">GitHub</a>
